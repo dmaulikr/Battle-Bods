@@ -12,6 +12,17 @@
 		CAE69E581CC27975008AD2E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE69E561CC27975008AD2E7 /* Main.storyboard */; };
 		CAE69E5A1CC27975008AD2E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE69E591CC27975008AD2E7 /* Assets.xcassets */; };
 		CAE69E5D1CC27975008AD2E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE69E5B1CC27975008AD2E7 /* LaunchScreen.storyboard */; };
+		CAE69E651CC279B6008AD2E7 /* axe-hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = CAE69E641CC279B6008AD2E7 /* axe-hit.wav */; };
+		CAE69E671CC279C6008AD2E7 /* orc-attack.wav in Resources */ = {isa = PBXBuildFile; fileRef = CAE69E661CC279C6008AD2E7 /* orc-attack.wav */; };
+		CAE69E691CC279D0008AD2E7 /* orc-die.wav in Resources */ = {isa = PBXBuildFile; fileRef = CAE69E681CC279D0008AD2E7 /* orc-die.wav */; };
+		CAE69E6B1CC279DB008AD2E7 /* player_select_music.wav in Resources */ = {isa = PBXBuildFile; fileRef = CAE69E6A1CC279DB008AD2E7 /* player_select_music.wav */; };
+		CAE69E6D1CC279E5008AD2E7 /* soldier_attack.wav in Resources */ = {isa = PBXBuildFile; fileRef = CAE69E6C1CC279E5008AD2E7 /* soldier_attack.wav */; };
+		CAE69E6F1CC279F0008AD2E7 /* soldier_die.wav in Resources */ = {isa = PBXBuildFile; fileRef = CAE69E6E1CC279F0008AD2E7 /* soldier_die.wav */; };
+		CAE69E711CC279FB008AD2E7 /* sword-hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = CAE69E701CC279FB008AD2E7 /* sword-hit.wav */; };
+		CAE69E731CC27A23008AD2E7 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE69E721CC27A23008AD2E7 /* GameController.swift */; };
+		CAE69E751CC29BE5008AD2E7 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE69E741CC29BE5008AD2E7 /* Character.swift */; };
+		CAE69E771CC29BFB008AD2E7 /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE69E761CC29BFB008AD2E7 /* Soldier.swift */; };
+		CAE69E791CC29C12008AD2E7 /* Orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE69E781CC29C12008AD2E7 /* Orc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		CAE69E591CC27975008AD2E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAE69E5C1CC27975008AD2E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAE69E5E1CC27975008AD2E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE69E641CC279B6008AD2E7 /* axe-hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "axe-hit.wav"; sourceTree = "<group>"; };
+		CAE69E661CC279C6008AD2E7 /* orc-attack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "orc-attack.wav"; sourceTree = "<group>"; };
+		CAE69E681CC279D0008AD2E7 /* orc-die.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "orc-die.wav"; sourceTree = "<group>"; };
+		CAE69E6A1CC279DB008AD2E7 /* player_select_music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = player_select_music.wav; sourceTree = "<group>"; };
+		CAE69E6C1CC279E5008AD2E7 /* soldier_attack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = soldier_attack.wav; sourceTree = "<group>"; };
+		CAE69E6E1CC279F0008AD2E7 /* soldier_die.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = soldier_die.wav; sourceTree = "<group>"; };
+		CAE69E701CC279FB008AD2E7 /* sword-hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sword-hit.wav"; sourceTree = "<group>"; };
+		CAE69E721CC27A23008AD2E7 /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		CAE69E741CC29BE5008AD2E7 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		CAE69E761CC29BFB008AD2E7 /* Soldier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
+		CAE69E781CC29C12008AD2E7 /* Orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +76,23 @@
 		CAE69E511CC27975008AD2E7 /* Battle Bods */ = {
 			isa = PBXGroup;
 			children = (
+				CAE69E701CC279FB008AD2E7 /* sword-hit.wav */,
+				CAE69E6E1CC279F0008AD2E7 /* soldier_die.wav */,
+				CAE69E6C1CC279E5008AD2E7 /* soldier_attack.wav */,
+				CAE69E6A1CC279DB008AD2E7 /* player_select_music.wav */,
+				CAE69E681CC279D0008AD2E7 /* orc-die.wav */,
+				CAE69E661CC279C6008AD2E7 /* orc-attack.wav */,
+				CAE69E641CC279B6008AD2E7 /* axe-hit.wav */,
 				CAE69E521CC27975008AD2E7 /* AppDelegate.swift */,
 				CAE69E541CC27975008AD2E7 /* ViewController.swift */,
 				CAE69E561CC27975008AD2E7 /* Main.storyboard */,
 				CAE69E591CC27975008AD2E7 /* Assets.xcassets */,
 				CAE69E5B1CC27975008AD2E7 /* LaunchScreen.storyboard */,
 				CAE69E5E1CC27975008AD2E7 /* Info.plist */,
+				CAE69E721CC27A23008AD2E7 /* GameController.swift */,
+				CAE69E741CC29BE5008AD2E7 /* Character.swift */,
+				CAE69E761CC29BFB008AD2E7 /* Soldier.swift */,
+				CAE69E781CC29C12008AD2E7 /* Orc.swift */,
 			);
 			path = "Battle Bods";
 			sourceTree = "<group>";
@@ -125,7 +158,14 @@
 			files = (
 				CAE69E5D1CC27975008AD2E7 /* LaunchScreen.storyboard in Resources */,
 				CAE69E5A1CC27975008AD2E7 /* Assets.xcassets in Resources */,
+				CAE69E6B1CC279DB008AD2E7 /* player_select_music.wav in Resources */,
+				CAE69E691CC279D0008AD2E7 /* orc-die.wav in Resources */,
+				CAE69E671CC279C6008AD2E7 /* orc-attack.wav in Resources */,
 				CAE69E581CC27975008AD2E7 /* Main.storyboard in Resources */,
+				CAE69E6F1CC279F0008AD2E7 /* soldier_die.wav in Resources */,
+				CAE69E651CC279B6008AD2E7 /* axe-hit.wav in Resources */,
+				CAE69E711CC279FB008AD2E7 /* sword-hit.wav in Resources */,
+				CAE69E6D1CC279E5008AD2E7 /* soldier_attack.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAE69E551CC27975008AD2E7 /* ViewController.swift in Sources */,
+				CAE69E771CC29BFB008AD2E7 /* Soldier.swift in Sources */,
+				CAE69E791CC29C12008AD2E7 /* Orc.swift in Sources */,
+				CAE69E731CC27A23008AD2E7 /* GameController.swift in Sources */,
 				CAE69E531CC27975008AD2E7 /* AppDelegate.swift in Sources */,
+				CAE69E751CC29BE5008AD2E7 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

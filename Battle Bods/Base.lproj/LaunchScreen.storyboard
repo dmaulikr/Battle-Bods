@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,13 +16,36 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="HIW-dc-tHr">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="hkO-M4-8SM">
+                                <rect key="frame" x="105.5" y="192" width="389" height="216"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="ATi-m1-e1T"/>
+                                    <constraint firstAttribute="width" constant="389" id="pxt-yN-pbz"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HIW-dc-tHr" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="9iY-HK-CGn"/>
+                            <constraint firstItem="hkO-M4-8SM" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="GxT-lz-OrT"/>
+                            <constraint firstAttribute="trailing" secondItem="HIW-dc-tHr" secondAttribute="trailing" id="QOG-44-Lel"/>
+                            <constraint firstItem="HIW-dc-tHr" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="f9k-Xf-Uld"/>
+                            <constraint firstItem="hkO-M4-8SM" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="rVl-xs-jc5"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="HIW-dc-tHr" secondAttribute="bottom" id="yUi-dy-o5P"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="598" y="499"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="1024" height="677"/>
+        <image name="title" width="363" height="197"/>
+    </resources>
 </document>
