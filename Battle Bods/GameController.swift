@@ -111,7 +111,7 @@ class GameController: NSObject {
                 vc.player2HealthLabel.text = "\(player2.hp) HP"
                 updateGameOutput("Player 1 attacks with \(getP1Ap())")
                 swordSound.play()
-                //disableButton3s(vc.player1AttackButton)
+                disableButton3s(vc.player1AttackButton)
                 if !player2.isAlive {
                     deathSound.play()
                     vc.player2Soldier.hidden = true
@@ -127,7 +127,7 @@ class GameController: NSObject {
                 vc.player2HealthLabel.text = "\(player2.hp) HP"
                 updateGameOutput("Player 1 attacks with \(getP1Ap())")
                 swordSound.play()
-                //disableButton3s(vc.player1AttackButton)
+                disableButton3s(vc.player1AttackButton)
                 if !player2.isAlive {
                     deathSound.play()
                     vc.player2Orc.hidden = true
@@ -144,7 +144,7 @@ class GameController: NSObject {
                 vc.player1HealthLabel.text = "\(player1.hp) HP"
                 updateGameOutput("Player 2 attacks with \(getP2Ap())")
                 swordSound.play()
-                //disableButton3s(vc.player2AttackButton)
+                disableButton3s(vc.player2AttackButton)
                 if !player1.isAlive {
                     deathSound.play()
                     vc.player1Soldier.hidden = true
@@ -160,7 +160,7 @@ class GameController: NSObject {
                 vc.player1HealthLabel.text = "\(player1.hp) HP"
                 updateGameOutput("Player 2 attacks with \(getP2Ap())")
                 swordSound.play()
-                //disableButton3s(vc.player2AttackButton)
+                disableButton3s(vc.player2AttackButton)
                 if !player1.isAlive {
                     deathSound.play()
                     vc.player1Orc.hidden = true
