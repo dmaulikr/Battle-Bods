@@ -1,5 +1,6 @@
 # Battle-Bods
-iOS App - An exercise from an iOS/Swift udemy course (https://www.udemy.com/ios9-swift/)
+A very basic number cruncher, introduction to constraints, canging the isHidden attribute and gruesome audio.
+This is Sparta!
 
 ![Title Screen] (https://github.com/deefex/Battle-Bods/blob/master/images/bb-title.png?raw=true)
 ![Fight] (https://github.com/deefex/Battle-Bods/blob/master/images/bb-fight.png?raw=true)
